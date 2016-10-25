@@ -1,0 +1,122 @@
+body {
+          padding-top: 20px;
+          margin:0 auto;
+          text-align: center;
+          vertical-align: middle;
+         /* width: 768px;*/
+             display: flex;
+          align-items: center;
+          justify-content: center;
+          padding-bottom: 20px;
+      }
+
+      #nav-container{
+        position: fixed;
+      }
+    
+
+      .navbar-brand{
+/*        float:top;*/
+        margin-top: 3px !important;
+        font-size: 40px !important;
+      }
+
+      .navbar-nav{
+        font-size: 40px !important;
+      }
+/*      pre {
+          tab-size: 8;
+      }*/
+      
+/*      @media screen and (max-width: 768px) {
+          .side-collapse-container{
+              width:100%;
+              position:relative;
+              left:0;
+              transition:left .4s;
+          }
+          .side-collapse-container.out{
+              left:200px;
+          }
+          .side-collapse {
+              top:50px;
+              bottom:0;
+              left:0;
+              width:200px;
+              position:fixed;
+              overflow:hidden;
+              transition:width .4s;
+          }
+          .side-collapse.in {
+              width:0;
+          }
+      }*/
+
+.dancingFont{
+  font-family: 'Dancing Script', cursive;
+
+}
+
+.seriousFont{
+  font-family: 'Gloria Hallelujah', cursive;
+
+}
+
+.paddingTop{
+  padding-top: 1px;
+}
+
+
+#map-canvas{
+  height: 250px;
+  width: 250px;
+  line-height: 100%;
+  border: 2px solid black; 
+  margin-left: auto;
+  margin-right: auto;
+/*height: 100%;
+width: 100%;*/
+/*    top: 50%;
+    left: 15%;*/
+/*    transform: translateX(-50%) translateY(-50%);*/
+
+
+
+}
+
+#inner-body-content{
+
+  margin:0 auto;
+  padding-left: 10px;
+}
+
+#top-logo-div{
+  /*height: 200px;*/
+  padding-bottom: 1px;
+}
+
+#fb-link-div-container{
+  margin:0 auto;
+  width: 60px;
+  height: 60px;
+
+  position: absolute;
+    right:5px;
+   top  :240px;
+/*   background-color:black;*/
+   opacity: 0.7;
+}
+
+#insta-link-div-container{
+  margin:0 auto;
+  width: 60px;
+  height: 60px;
+
+  position: absolute;
+    right:5px;
+   top  :285px;
+/*   background-color:black;*/
+   opacity: 0.7;
+}
+
+
